@@ -15,12 +15,17 @@ Or just type `pip install -r requirements.txt` in your terminal.
 
 ```bash
 python main.py
-
+-g type of gan
+-t data type
+-d lacation of data
+-pre pretrain epoch
+-dis discriminator epoch
+-ad adversial training epoch
 ```
 
 ## Evaluation Results
 
-BLEU on image COCO caption test dataset:
+BLEU on image COCO dataset:
 
 |       | SeqGAN | RankGAN | LeakGAN | AttentionGAN |
 |-------|--------|---------|---------|--------------|
@@ -29,4 +34,4 @@ BLEU on image COCO caption test dataset:
 | BLEU4 | 0.420  | 0.373   | 0.627   | 0.664        |
 | BLEU5 | 0.253  | 0.242   | 0.435   | 0.463        |
 
-Note: this code is based on the previous work by ofirnachum. Many thanks to ofirnachum.
+Note: this code is based on the previous work [Texygen](https://github.com/geek-ai/Texygen).
