@@ -14,10 +14,8 @@ Or just type `pip install -r requirements.txt` in your terminal.
 ## Get Started
 
 ```bash
-git clone https://github.com/geek-ai/Texygen.git
-cd Texygen
-# run SeqGAN with default setting
-python3 main.py
+python main.py
+
 ```
 
 ## Evaluation Results
